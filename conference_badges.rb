@@ -5,7 +5,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(list)
-
+  list.map {|name| "Hello, my name is #{name}."}
 end
 
 def assign_rooms(speakers)
